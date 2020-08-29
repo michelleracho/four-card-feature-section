@@ -16,6 +16,10 @@ body {
   font-weight: $font-regular;
   color: $color-neutral-very-dark-blue;
   background-color: $color-neutral-very-light-gray;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 1.2rem;
+  }
 }
 
 .container {
@@ -27,4 +31,7 @@ body {
   flex-direction: column;
   align-items: center;
   // justify-content: space-between;
+
+  position: relative;
+  overflow: hidden;
 }
