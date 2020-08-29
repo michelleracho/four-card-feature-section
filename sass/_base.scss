@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: $default-font;
+  font-weight: $font-regular;
+  color: $color-neutral-very-dark-blue;
+  background-color: $color-neutral-very-light-gray;
+}
+
+.container {
+  max-width: $bp-largest;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: space-between;
+}

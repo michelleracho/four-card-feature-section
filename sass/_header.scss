@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  width: 50rem;
+  margin-top: 5rem;
+
+  h1 {
+    font-weight: $font-light;
+  }
+
+  h1 span {
+    display: block;
+    font-weight: $font-bold;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: $font-regular;
+    color: $color-neutral-grayish-blue;
+  }
+}
