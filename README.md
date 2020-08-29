@@ -1,4 +1,5 @@
 # Frontend Mentor - Four card feature section
+- View my project live [here](https://pedantic-murdock-1e7924.netlify.app/)
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
